@@ -21,7 +21,7 @@ def make_output_dir_if_needed(output_dir):
 
 
 def line_notify(message):
-    line_token = 'D2T2uQTqR0UJhJSyKnOtn23DlDvp7zYd7fJ2KtYbSUX'  # 終わったら無効化する
+    line_token = 'xxxxxxxx'  # 終わったら無効化する
     endpoint = 'https://notify-api.line.me/api/notify'
     message = "\n{}".format(message)
     payload = {'message': message}

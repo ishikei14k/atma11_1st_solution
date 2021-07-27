@@ -1,0 +1,1 @@
+python -m torch.distributed.launch --nproc_per_node=2 main_dino.py --arch vit_base --epochs 300 --batch_size_per_gpu 32 --data_path ../input/photos_ssl --output_dir ./output/007
